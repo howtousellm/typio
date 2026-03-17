@@ -5,12 +5,13 @@
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
 ![Platform](https://img.shields.io/badge/platform-macOS-111827?logo=apple&logoColor=white)
-![Input Method](https://img.shields.io/badge/type-English%20IEM-2563eb)
+![Input Method](https://img.shields.io/badge/type-English%20IME-2563eb)
 ![Architecture](https://img.shields.io/badge/architecture-local--first-059669)
+[![Sponsor](https://img.shields.io/badge/sponsor-Support%20Typio-ea580c?logo=githubsponsors&logoColor=white)](https://www.shuqihere.top/archive/projects/typio)
 
 </div>
 
-Typio は、英語を母語としないユーザー向けの macOS 用 English IEM です。
+Typio は、英語を母語としないユーザー向けの macOS 用 English IME です。
 
 毎日英語を書く中で、スペル、語彙選択、入力方式の切り替えによって思考の流れが途切れてしまう人のために設計されています。
 
@@ -28,6 +29,12 @@ Typio は「typo の終わり」を意味します。
 - 🔒 **プライバシー重視**：入力処理はすべてローカルで完結。
 
 ## スクリーンショット
+
+<div align="center">
+  <video src="resources/images/readme/demo.mov" controls="controls" muted="muted" autoplay="autoplay" width="66.66666%"></video>
+</div>
+
+<br/>
 
 <table>
 	<tr>
@@ -52,6 +59,12 @@ Typio は「typo の終わり」を意味します。
 
 一般ユーザーは `typio-<version>.pkg` をダウンロードして実行し、システム設定の「キーボード → 入力ソース」で Typio を有効化してください。
 
+<div align="center">
+  <img src="resources/images/readme/install-guide-1.png" alt="Allow applications from App Store & Known Developers" height="300" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="resources/images/readme/install-guide-2.png" alt="Open typio-1.0.pkg anyway" height="300" />
+</div>
+
 通常はログアウト不要です。すぐに表示されない場合は、一度入力ソースを削除して再追加してください。それでも表示されない場合は、ログアウト後に再ログインしてください。
 
 ## ビルドとパッケージ
@@ -59,6 +72,10 @@ Typio は「typo の終わり」を意味します。
 `sh scripts/build.sh` でビルド、`sh scripts/build-and-install.sh` でローカル開発用インストール、`sh scripts/package-pkg.sh` で `dist/typio-<version>.pkg` を生成します。
 
 インストーラ署名が必要な場合は、パッケージ化前に `INSTALLER_SIGN_IDENTITY` を設定してください。
+
+## Typio を支援する
+
+Typio はコミュニティのために作られています。もし役に立つと感じたら、私の[個人ブログ](https://www.shuqihere.top/archive/projects/typio)での開発支援をご検討ください。
 
 ## プロジェクト
 

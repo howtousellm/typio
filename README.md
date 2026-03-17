@@ -7,7 +7,7 @@
 ![Platform](https://img.shields.io/badge/platform-macOS-111827?logo=apple&logoColor=white)
 ![Input Method](https://img.shields.io/badge/type-English%20IME-2563eb)
 ![Local First](https://img.shields.io/badge/architecture-local--first-059669)
-[![Sponsor](https://img.shields.io/badge/sponsor-Support%20Typio-ea580c?logo=githubsponsors&logoColor=white)](https://saguaro.show/archive/projects/typio)
+[![Sponsor](https://img.shields.io/badge/sponsor-Support%20Typio-ea580c?logo=githubsponsors&logoColor=white)](https://www.shuqihere.top/archive/projects/typio)
 
 </div>
 
@@ -75,7 +75,7 @@ If you need installer signing, set `INSTALLER_SIGN_IDENTITY` before packaging.
 
 ## Support Typio
 
-Typio is built for the community. If you find it helpful, please consider supporting its development on my [personal blog](https://saguaro.show/archive/projects/typio).
+Typio is built for the community. If you find it helpful, please consider supporting its development on my [personal blog](https://www.shuqihere.top/archive/projects/typio).
 
 ## About
 

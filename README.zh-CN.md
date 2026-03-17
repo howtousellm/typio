@@ -5,12 +5,13 @@
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
 ![Platform](https://img.shields.io/badge/platform-macOS-111827?logo=apple&logoColor=white)
-![输入法类型](https://img.shields.io/badge/type-English%20IEM-2563eb)
+![输入法类型](https://img.shields.io/badge/type-English%20IME-2563eb)
 ![架构](https://img.shields.io/badge/architecture-local--first-059669)
+[![Sponsor](https://img.shields.io/badge/sponsor-Support%20Typio-ea580c?logo=githubsponsors&logoColor=white)](https://www.shuqihere.top/archive/projects/typio)
 
 </div>
 
-Typio 是一个面向非母语用户的 macOS 英文输入法（English IEM）。
+Typio 是一个面向非母语用户的 macOS 英文输入法（English IME）。
 
 它服务于每天都要写英文、但经常在拼写、词语选择或输入法切换上打断思路的用户。
 
@@ -28,6 +29,12 @@ Typio，意为 typo 的终点。
 - 🔒 **默认隐私友好**：输入处理全部在本地完成。
 
 ## 截图
+
+<div align="center">
+  <video src="resources/images/readme/demo.mov" controls="controls" muted="muted" autoplay="autoplay" width="66.66666%"></video>
+</div>
+
+<br/>
 
 <table>
 	<tr>
@@ -52,6 +59,12 @@ Typio，意为 typo 的终点。
 
 对于普通用户，请下载并运行 `typio-<version>.pkg`，然后在“系统设置 → 键盘 → 输入法”中启用 Typio。
 
+<div align="center">
+  <img src="resources/images/readme/install-guide-1.png" alt="Allow applications from App Store & Known Developers" height="300" />
+      
+  <img src="resources/images/readme/install-guide-2.png" alt="Open typio-1.0.pkg anyway" height="300" />
+</div>
+
 大多数情况下无需注销。如果 Typio 没有立即出现，可先移除并重新添加一次输入源；仍未显示时，再执行一次注销并重新登录。
 
 ## 构建与打包
@@ -59,6 +72,10 @@ Typio，意为 typo 的终点。
 使用 `sh scripts/build.sh` 构建应用，`sh scripts/build-and-install.sh` 用于本地开发安装，`sh scripts/package-pkg.sh` 生成安装包 `dist/typio-<version>.pkg`。
 
 如果需要安装包签名，请在打包前设置 `INSTALLER_SIGN_IDENTITY`。
+
+## 支持 Typio
+
+Typio 是为社区构建的。如果您觉得它有帮助，请考虑在我的[个人博客](https://www.shuqihere.top/archive/projects/typio)上支持它的开发。
 
 ## 项目
 
